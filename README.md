@@ -1,19 +1,19 @@
-#Automatic Licence Plate Recognition (ALPR)
+# Smart ALPR System 🚗📸
 
-
-## Description
-Automatic License Plate Recognition (ALPR) is a real-time system that detects vehicles, recognizes license plates, and extracts vehicle details such as color, type, timestamps, and crossing logs.  
-It uses **YOLOv8** for vehicle detection, **Tesseract OCR** for plate recognition, **OpenCV** for color detection, and **Python with SQLite** for data management and analytics.
-
----
+Automatic License Plate Recognition (ALPR) system using  
+YOLOv8, OpenCV, and Tesseract OCR.
 
 ## Features
-- Real-time vehic
-- le detection from video/live feed  
-- License plate recognition using OCR  
-- Vehicle type classification (Car, Bike, Bus, Truck)  
-- Vehicle color detection  
-- Timestamp logging and crossing count analytics  
-- Dashboard visualization with Flask (optional for hackathon demo)
+- Vehicle Detection
+- License Plate Detection
+- OCR-based Plate Recognition
+- Video, Image, and CCTV Stream Support
 
+## Tech Stack
+- Python
+- YOLOv8 (Ultralytics)
+- OpenCV
+- Tesseract OCR
 
+## Status
+🚧 Project initialized – development in progress
