@@ -1,5 +1,5 @@
 # YOLOv8-Based Automatic License Plate Recognition System
-
+## Drive Link - https://drive.google.com/file/d/1W1moMcAa7IiF475QdpDQ8dJJqrrUCPsd/view?usp=drivesdk
 A systematic, engineering-focused approach to license plate detection and recognition using YOLOv8 with rigorous dataset validation and modular notebook development.
 
 ## Problem Statement
@@ -413,3 +413,4 @@ This YOLOv8-based ALPR system demonstrates engineering discipline through system
 The incremental development approach ensures transparency and reproducibility, while the confidence engineering and OCR-aware detection design provide a solid foundation for complete ALPR implementation. The system balances technical sophistication with practical constraints, making it suitable for both hackathon environments and production deployment scenarios.
 
 The emphasis on dataset quality, systematic validation, and clear documentation establishes this project as a robust foundation for ALPR research and development, with clear pathways for enhancement and scaling based on specific application requirements.
+
