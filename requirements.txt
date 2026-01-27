@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ultralytics
 opencv-python
 pytesseract
@@ -6,3 +7,22 @@ pandas
 torch
 flask
 streamlit
+=======
+streamlit>=1.28.0
+opencv-python-headless>=4.8.0
+Pillow>=9.0.0
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+easyocr>=1.6.0
+numpy>=1.21.0
+pytesseract>=0.3.10
+keras-ocr>=0.9.3
+tensorflow>=2.10.0
+>>>>>>> f440aff (Initial commit - OCR application setup)
+opencv-python
+numpy
+easyocr
+streamlit
+ultralytics
+torch

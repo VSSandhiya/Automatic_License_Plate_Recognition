@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 venv/
 __pycache__/
 *.pyc
@@ -9,3 +10,28 @@ __pycache__/
 models/*.pt
 data/output/
 database/*.db
+=======
+# Python cache
+__pycac__pycache__/
+*.pyc
+*.pt
+*.onnx
+.env
+venv/
+.DS_Store
+Thumbs.db
+he__/
+*.pyc
+
+# Virtual environment
+venv/
+.env
+
+# Model files (large)
+*.pt
+*.onnx
+
+# OS files
+.DS_Store
+Thumbs.db
+>>>>>>> f440aff (Initial commit - OCR application setup)

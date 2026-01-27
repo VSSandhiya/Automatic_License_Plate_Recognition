@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # YOLOv8-Based Automatic License Plate Recognition System
 
 A systematic, engineering-focused approach to license plate detection and recognition using YOLOv8 with rigorous dataset validation and modular notebook development.
@@ -414,3 +415,75 @@ The incremental development approach ensures transparency and reproducibility, w
 
 The emphasis on dataset quality, systematic validation, and clear documentation establishes this project as a robust foundation for ALPR research and development, with clear pathways for enhancement and scaling based on specific application requirements.
 
+=======
+# License Plate Detection & OCR System
+
+A web-based application that uses YOLO for license plate detection and EasyOCR for text extraction from vehicle images.
+
+## Features
+
+- 🚗 **License Plate Detection**: Uses YOLOv8 model trained on Indian license plates
+- 📝 **Text Extraction**: Employs EasyOCR to extract text from detected license plates
+- 🖼️ **Interactive UI**: Built with Streamlit for easy image upload and visualization
+- 🎯 **Real-time Processing**: Shows detection results with bounding boxes and confidence scores
+
+## Installation
+
+1. Clone or download this repository
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+1. Run the Streamlit application:
+   ```bash
+   streamlit run app.py
+   ```
+
+2. Open your web browser and go to the provided URL (usually `http://localhost:8501`)
+
+3. Upload an image containing a vehicle with a license plate
+
+4. Click "Detect License Plates" to process the image
+
+5. View the results:
+   - Original image with bounding boxes around detected plates
+   - Extracted text from each license plate
+   - Confidence scores for detections
+
+## Requirements
+
+- Python 3.8+
+- The YOLO model file `indian_license_plate_best.pt` should be in the same directory
+
+## Supported Image Formats
+
+- JPG, JPEG
+- PNG
+- BMP
+- TIFF
+
+## Model Information
+
+- **Detection Model**: YOLOv8 trained on Indian license plates
+- **OCR Model**: EasyOCR with English language support
+- **Confidence Threshold**: 0.5 for both detection and OCR
+
+## Troubleshooting
+
+1. **Model Loading Issues**: Ensure `indian_license_plate_best.pt` is in the correct directory
+2. **Memory Issues**: Restart the application if you encounter memory errors
+3. **OCR Accuracy**: For best results, use clear images with good lighting
+
+## File Structure
+
+```
+OCR/
+├── app.py                    # Main application file
+├── requirements.txt          # Python dependencies
+├── indian_license_plate_best.pt  # YOLO model file
+└── README.md                # This file
+```
+>>>>>>> f440aff (Initial commit - OCR application setup)
